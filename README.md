@@ -95,3 +95,12 @@ mvn spring-boot:run
     ...
 ]
 ```
+
+
+## Testing
+
+The application includes unit tests of the GitHubService class 
+methods in GitHubServiceTest. Run them using Maven:
+```
+mvn test
+```
